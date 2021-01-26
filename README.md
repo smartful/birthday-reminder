@@ -1,3 +1,9 @@
+# Birthday reminder
+
+It's an app which remind birthday date of your friends.
+
+This app start with a create-react-app with the template TypeScript.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
