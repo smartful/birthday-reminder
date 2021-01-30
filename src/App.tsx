@@ -7,7 +7,7 @@ function App() {
       <Card 
         url='https://randomuser.me/api/portraits/women/10.jpg'
         name="Judy McGannon"
-        birthdate="30/01/1991"
+        birthdate="04/02/1991"
       />
     </div>
   );
