@@ -1,4 +1,4 @@
-import { daysBeforeBirthday, isBirthdayHappened } from '../utils/birthdayUtils';
+import { isBirthdayHappened } from '../utils/birthdayUtils';
 
 export interface CardLabelProps {
   name: string;
@@ -13,8 +13,7 @@ const CardLabel: React.FC<CardLabelProps> = ({ name, birthdate }) => {
     marginLeft: '1rem',
   };
 
-  const daysBefore = daysBeforeBirthday(birthdate);
-  console.log("Is birthday happened ? ", isBirthdayHappened(birthdate));
+  console.log(`Is ${name} birthday happened : ${isBirthdayHappened(birthdate)}`);
 
   return (
     <div style={labelStyle}>

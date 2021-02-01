@@ -81,7 +81,6 @@ export const daysBeforeBirthday = (birthdayFRDate: string): number => {
   const daysBeforeBirthdayFromStartYear = daysBeforeBirthdayMonth + birthdayDay;
   const daysBeforeTodayFromStartYear = daysBeforeTodayMonth + todayDay;
   const daysBefore = daysBeforeBirthdayFromStartYear - daysBeforeTodayFromStartYear;
-  console.log("daysBeforeBirthday : ", daysBefore);
   return daysBefore;
 }
 
